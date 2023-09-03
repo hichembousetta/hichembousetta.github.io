@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="Français"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+  <script src="./main.js"></script>
+    <title>Responsive CV</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left_side">
+        <div class="about_me">
+          <img src="./image/photo.PNG" alt="profile image" />
+          <h2>Boussetta hichem</h2>
+          <h3>Informaticien</h3>
+        </div>
+        <div class="contact_info">
+          <h3 class="title">Informations de contact</h3>
+          <ul>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <span class="text">+216 51767779</span>
+            </li>
+            <li>
+              <i class="fa-regular fa-envelope"></i>
+              <span class="text">hichem.bousetta.98@gmail.com
+</span>
+            </li>
+            
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <span class="text">Sfax, tunisie</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-car"></i>
+              <span class="text"> Permis B 
+</span>
+            </li>
+          </ul>
+        </div>
+        <div class="education">
+          <h3 class="title">Éducation
+</h3>
+          <ul>
+             <li>
+              <h4>2018 - 2019</h4>
+              <h5 class="degree">Baccalauréat en economie et gestion</h5>
+              <h5>lycée privé tawfik</h5>
+            </li>
+
+            <li>
+              <h4>2020 - 2023</h4>
+              <h5 class="degree">licence en informatique de gestion</h5>
+              <h5>Institut supérieur d'administration des affaires </h5>
+            </li>
+            <li>
+              <h3 class="title">Certifications
+</h3>
+              <h4>Mars 2023 - Mai 2023</h4>
+              <h5 class="degree">Development web</h5>
+              <h5>DevMastery </h5>
+              <li>
+              <h4>Juin 2023 - Août 2023</h4>
+              <h5 class="degree">B1 en Anglais </h5> 
+              <h5>Open School</h5>
+            </li>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="languages">
+          <h3 class="title">langues</h3>
+          <ul>
+            <li>
+              <span class="language_name">Anglais</span>
+              <div class="percent_container">
+                <div class="percent" style="width: 70%"></div>
+              </div>
+            </li>
+            <li>
+              <span class="language_name">Français</span> 
+              <div class="percent_container">
+                <div class="percent" style="width: 65%"></div>
+              </div>
+            </li>
+            <li>
+              <span class="language_name">Arabe </span>
+              <div class="percent_container">
+                <div class="percent" style="width: 100%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="right_side">
+        <div class="profile">
+          <h2 class="title"> Profil</h2>
+          <p>
+            Je suis diplômé de l'Institut Supérieur d'Administration des Affaires, spécialisé dans la conception et le développement Web et mobile. J'ai une passion pour le travail d'équipe et je suis capable d'apprendre et d'appliquer rapidement de nouvelles technologies.
+          </p>
+          <br />
+         
+          <p>
+            
+          </p>
+        </div>
+        <div class="experience">
+          <h2 class="title"> Expériences professionnels</h2>
+          <div class="box">
+            <div class="year_company">
+              <h5> juillet 2023 - août 2023</h5>
+              <h4>Ai design & print</h4>
+            </div>
+            <div class="content">
+              <h4> Designer
+</h4>
+              <p>
+                 Conception de plus de 10 projets pour des clients 
+ Collaboration étroite avec l'équipe dans je sein de l'entreprise 
+ Ai design & print.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="year_company">
+              <h5>Janvier 2023 - Mai 2023</h5>
+              <h4>Business Software </h4>
+            </div>
+            <div class="content">
+              <h4>Development mobile(stage de pfe) </h4>
+              <p>
+                
+                Conception et Développement une application mobile
+E-commerce au sein de la société business software 
+dans la cadre de mon projet de fin d'etude.
+                </p>
+            </div>
+          </div>
+          
+          <div class="box">
+            <div class="year_company">
+              <h5>Octobre 2022 - Décembre 2022</h5>
+              <h4>Height qualité  </h4>
+            </div>
+            <div class="content">
+              <h4>Development web (projet freelance)</h4>
+              <p>Définition du cahier des charges pour le site. 
+Développement du site et de sa version responsive mobile avec les technologie (ReactJS, NodeJS) et MongoDB pour le basse de donnée.
+
+              </p>
+            </div>
+          </div>
+           <div class="box">
+            <div class="year_company">
+              <h5>Juin 2018 - Septembre 2022</h5>
+              <h4>Entreprise de pièces automobiles   </h4>
+            </div>
+            <div class="content">
+              <h4>Responsable des ventes (Temps partiel) </h4>
+              <p>Fournir un service exceptionnel à une clientèle variée achetant des produits automobiles, en gérant les commandes spéciales, améliorant les procédures de gestion des stocks et assistance pour les clients locaux.
+
+              </p>
+            </div>
+          </div>
+        
+        
+        </div>
+        
+        <div class="skills">
+          <h2 class="title">Compétences professionnelles</h2>
+          <div class="skill skill-1">
+            <h4>HTML</h4>
+            <div class="percent_container">
+              <div class="percent" style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="skill skill-2">
+            <h4>ReactJS</h4>
+            <div class="percent_container">
+              <div class="percent" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill skill-3">
+            <h4>Microsoft Office 365</h4>
+            <div class="percent_container">
+              <div class="percent" style="width: 70%"></div>
+            </div> 
+          </div> 
+          <div class="skill skill-4">
+            <h4>  Basse de Donnée </h4>
+            <div class="percent_container">
+              <div class="percent" style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="skill skill-5">
+            <h4>Illustrator</h4>
+            <div class="percent_container">
+              <div class="percent" style="width: 65%"></div>
+            </div>
+          
+          </div>
+        </div>
+        <div class="interests">
+          <h2 class="title">Intérêts</h2>
+          <ul>
+            <li><i class="fa-solid fa-gamepad"></i> Jeux vidéo</li>
+            <li><i class="fa-solid fa-microphone"></i> le chant</li>
+            <li><i class="fa-solid fa-book"></i> lecture</li>
+            <li><i class="fa-solid fa-utensils"></i> cuisiner</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
